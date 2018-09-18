@@ -1,0 +1,12 @@
+{
+  "name": "us-cities-db",
+  "version": "20180910.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/publicdocs-platform/us-cities-db",
+  "author": "Advay Mengle <source@madvay.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false,
+  "dependencies": {
+    "csv-parse": "^3.0.0"
+  }
+}
