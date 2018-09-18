@@ -7,7 +7,7 @@ const raw = fs.readFileSync(path.join(__dirname, 'Gaz_places_national.txt'))
 const records = parse(raw, {columns: true, delimiter: '\t', trim: true});
 
 const data = records.map((t) => {
-  let words = t.split(' ');
+  let words = t.NAME.split(' ');
   let name = words.slice(0, words.length - 1).join(' ');
   return {
     name: name,
