@@ -7,6 +7,6 @@
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "dependencies": {
-    "csv-parse": "^3.0.0"
+    "csv-parse": "^4.4.6"
   }
 }
